@@ -1,4 +1,4 @@
 // simple hello world JS
 console.log("Hello World!!!");
 
-console.log("More hello...")
+console.log("new hello...")
