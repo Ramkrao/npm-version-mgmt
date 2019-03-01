@@ -1,12 +1,12 @@
 {
   "name": "npm-version-mgmt",
-  "version": "0.0.0-development",
+  "version": "1.1.0",
   "description": "Test project to learn npm version mgmt",
   "main": "app/index.js",
   "scripts": {
     "start": "node ./app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release --no-cli --debug true"
+    "semantic-release": "semantic-release --no-ci --debug true"
   },
   "repository": {
     "type": "git",
