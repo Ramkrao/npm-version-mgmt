@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --no-cli --debug true"
   },
   "repository": {
     "type": "git",
