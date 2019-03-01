@@ -8,4 +8,6 @@ COPY . .
 
 RUN npm install 
 
+RUN npm cache verify
+
 ENTRYPOINT ["/bin/bash"]

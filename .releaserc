@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "eslint",
+      "releaseRules": [
+        {"type": "Fix", "release": "minor"},
+        {"type": "Update", "release": "minor"},
+        {"type": "Breaking", "release": "major"},
+        {"type": "Docs", "release": "patch"},
+        {"type": "Build", "release": "patch"},
+        {"type": "New", "release": "major"},
+        {"type": "Upgrade", "release": "minor"}
+      ],
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+      }
+    }],
+    "@semantic-release/release-notes-generator"
+  ]
+}
