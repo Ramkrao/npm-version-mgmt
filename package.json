@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Ramkrao/npm-version-mgmt#readme",
   "devDependencies": {
-    "semantic-release": "^15.13.3"
+    "semantic-release": "file:/home/semantic-release"
   }
 }
