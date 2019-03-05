@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ramkrao/npm-version-mgmt#readme",
   "devDependencies": {
-    "semantic-release-ramkrao": "^15.14.0-0"
+    "semantic-release-ramkrao": "../semantic-release"
   },
   "dependencies": {
     "semver": "^5.6.0"
