@@ -2,13 +2,14 @@
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "releaseRules": [
-        {"type": "Fix", "release": "minor"},
-        {"type": "Update", "release": "minor"},
-        {"type": "Breaking", "release": "major"},
-        {"type": "Docs", "release": "patch"},
-        {"type": "Build", "release": "patch"},
-        {"type": "New", "release": "major"},
-        {"type": "Upgrade", "release": "minor"}
+        {"type": "Fix", "release": "preminor"},
+        {"type": "Update", "release": "preminor"},
+        {"type": "Breaking", "release": "premajor"},
+        {"type": "Docs", "release": "prepatch"},
+        {"type": "Build", "release": "prepatch"},
+        {"type": "New", "release": "premajor"},
+        {"type": "Upgrade", "release": "preminor"},
+        {"type": "/.*/", "release": "prerelease"}
       ],
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]

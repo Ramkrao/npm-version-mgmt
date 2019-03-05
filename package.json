@@ -1,24 +1,33 @@
 {
   "name": "npm-version-mgmt",
-  "version": "4.0.0",
+  "version": "4.0.1-dev.7",
   "description": "Test project to learn npm version mgmt",
   "main": "app/index.js",
   "scripts": {
     "start": "node ./app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release --no-ci --debug true"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ramkrao/npm-version-mgmt.git"
+    "url": "https://github.com/ramkrao/npm-version-mgmt.git"
   },
   "author": "Ramkrao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ramkrao/npm-version-mgmt/issues"
+    "url": "https://github.com/ramkrao/npm-version-mgmt/issues"
   },
-  "homepage": "https://github.com/Ramkrao/npm-version-mgmt#readme",
+  "homepage": "https://github.com/ramkrao/npm-version-mgmt#readme",
   "devDependencies": {
-    "semantic-release": "^15.13.3"
+    "semantic-release": "../semantic-release"
+  },
+  "dependencies": {
+    "semver": "^5.6.0"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "publishConfig": {
+    "tag": "next"
   }
 }
