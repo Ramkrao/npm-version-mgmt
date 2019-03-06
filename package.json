@@ -1,6 +1,6 @@
 {
   "name": "npm-version-mgmt",
-  "version": "4.0.1-26",
+  "version": "4.0.1-27",
   "description": "Test project to learn npm version mgmt",
   "main": "app/index.js",
   "scripts": {
