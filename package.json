@@ -30,5 +30,18 @@
   },
   "publishConfig": {
     "tag": "next"
-  }
+  },
+  "prepare": [
+    "[@semantic](http://twitter.com/semantic)-release/changelog",
+    "[@semantic](http://twitter.com/semantic)-release/npm",
+    {
+     "path": "[@semantic](http://twitter.com/semantic)-release/git",
+      "assets": [
+       "package.json",
+       "package-lock.json",
+       "CHANGELOG.md"
+     ],
+     "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+   }
+ ]
 }
