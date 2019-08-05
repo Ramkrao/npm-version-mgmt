@@ -18,9 +18,11 @@
     "url": "https://github.com/ramkrao/npm-version-mgmt/issues"
   },
   "homepage": "https://github.com/ramkrao/npm-version-mgmt#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "github:semantic-release/changelog"
+  },
   "dependencies": {
-    "semantic-release": "../semantic-release",
+    "semantic-release": "^15.13.19",
     "semver": "^5.6.0"
   },
   "installConfig": {
